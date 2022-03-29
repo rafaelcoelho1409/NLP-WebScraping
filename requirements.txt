@@ -26,7 +26,6 @@ executing==0.8.3
 futures==3.0.5
 gitdb==4.0.9
 GitPython==3.1.27
-goslate==1.5.2
 h11==0.13.0
 idna==3.3
 importlib-metadata==4.11.3
@@ -63,6 +62,7 @@ pathy==0.6.1
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.0.1
+plotly==5.6.0
 preshed==3.0.6
 prometheus-client==0.13.1
 prompt-toolkit==3.0.28
@@ -97,14 +97,14 @@ smmap==5.0.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
 soupsieve==2.3.1
-spacy==3.2.3
 spacy-legacy==3.0.9
 spacy-loggers==1.0.1
 srsly==2.4.2
 stack-data==0.2.0
+streamlit==1.8.0
+tenacity==8.0.1
 terminado==0.13.3
 testpath==0.6.0
-textblob==0.17.1
 thinc==8.0.15
 threadpoolctl==3.1.0
 toml==0.10.2
