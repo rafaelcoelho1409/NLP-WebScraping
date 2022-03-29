@@ -1,3 +1,2 @@
 libnss3
-google-chrome-stable
 chromedriver
