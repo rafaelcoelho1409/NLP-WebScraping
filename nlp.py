@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from nltk.tokenize import RegexpTokenizer
@@ -16,8 +17,10 @@ class WebText:
         self.options.add_argument('--headless')
         self.options.add_argument('--window-size=1920x1080')
         if self.driver == None:
-            self.driver = webdriver.Chrome(options = self.options, service = Service(ChromeDriverManager().install()))
-
+            self.driver = webdriver.Chrome(
+                options = self.options,
+                desired_capabilities = DesiredCapabilities.CHROME.copy(),
+                service = Service(ChromeDriverManager().install()))
     def get_url(self, url):
         self.url = url
         if not self.url.startswith('https://'):
