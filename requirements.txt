@@ -76,7 +76,6 @@ pdfminer.six==20220319
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.0.1
-pkg_resources==0.0.0
 platformdirs==2.5.1
 plotly==5.6.0
 pluggy==1.0.0
