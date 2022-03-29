@@ -1,2 +1,3 @@
 libnss3
 chromedriver
+chromium-driver=73.0.3683.75-1~deb9u1
