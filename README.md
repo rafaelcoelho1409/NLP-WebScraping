@@ -1,19 +1,19 @@
-# Processamento de Linguagem Natural (NLP Básico) & Web Scraping
+# Natural Language Processing (NLP) & Web Scraping
 
-## Objetivo
-Obter os termos mais citados em uma página HTML usando Web Scraping e NLP para processamento de texto.  
-O projeto consiste em coletar textos de sites em português, usar NLP para tratamento dos dados de texto e coletar os termos que são mais citados dentro do texto obtido.  
-O projeto possui dois arquivos principais:
-- nlp.py: A aplicação construída é voltada para funcionar com o Streamlit
-- nlp.ipynb: Uma versão mais genérica do projeto dentro de um Jupyter Notebook
+## Purpose
+Obtain the most mentioned terms in an HTML page using Web Scraping and NLP.  
+The project consists in collecting texts from Portuguese websites, use NLP for text processing and collecting the most mentioned terms into the obtained text.  
+This project have two main files:
+- nlp.py: This application is builded with Streamlit
+- nlp.ipynb: A generic version of this project into a Jupyter Notebook
 
-## Recursos utilizados
+## Resources
 - Visual Studio Code
 - python3.9
 - virtualenv
-- pip3: gerenciador de pacotes python3.x
+- pip3: python3.x packages manager
 
-## Pacotes do Python
+## Python packages
 - selenium (Selenium Webdriver)
 - webdriver_manager (Webdriver Manager)
 - nltk (NLTK: Natural Language Toolkit)
@@ -21,18 +21,18 @@ O projeto possui dois arquivos principais:
 - plotly
 - streamlit
 
-## Screenshots do projeto construído
+## Screenshots
 <img src="screenshot01.png" />
 <img src="screenshot02.png" />
 
-## Para executar esse repositório localmente em sua máquina
-- baixe esse repositório em sua máquina:
+## Running this repo in your local machine
+- clone this repo:  
 > git clone https://github.com/rafaelcoelho1409/NLP-WebScraping.git
-- instale os pacotes necessários que estão no arquivo requirements.txt:
+- install required packages that are in 'requirements.txt' file:
 > pip3 install -r requirements.txt
-- escolha seu interpretador python (python3, python3.x)  
-- execute os seguintes comandos (para Linux):
+- choose your Python interpreter (python3.x)  
+- run the following commands (for Linux):
 > cd NLP-WebScraping  
 > streamlit run nlp.py
-- Com esses comandos, a página será aberta automaticamente. Caso não abra, vá até seu navegador e digite:
+- With these commands, a web page will be opened automatically. In the case it doesn't open, go to the browser and type:
 > http://localhost:8501  
